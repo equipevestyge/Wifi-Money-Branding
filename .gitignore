@@ -1,0 +1,32 @@
+# Arquivos do sistema operacional
+.DS_Store
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Arquivos de configuração do editor
+*.swp
+*.swo
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de configuração do Shopify
+config/settings_data.json
+config/settings_schema.json
+
+# Arquivos de dependências e build
+node_modules/
+dist/
+build/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos temporários
+*.tmp
+*.temp
+.cache/
